@@ -25,7 +25,7 @@ export default function App() {
       </button>
       <br/><br/>
       <button onClick = {()=>setMorning(!isMorning)}> Update Day Light</button>
-      <h1> {count == 4 ? 'Stop Playing with the button ;-)' : ''}</h1>
+      <h1> {count === 4 ? 'Stop Playing with the button ;-)' : ''}</h1>
       <h1> {count >= 6 ? 'Hey! I told you to Stop :-O' : ''}</h1>
       {/* <h1>{()=> count = 3 ('stop')} </h1> */}
     </div>
